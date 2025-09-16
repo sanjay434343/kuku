@@ -1,0 +1,16 @@
+{
+  "name": "kuku-proxy",
+  "version": "1.0.0",
+  "description": "Unofficial KukuFM proxy API for metadata + streaming (Vercel serverless)",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "lint": "echo 'no lint configured'"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "node-fetch": "^3.4.1"
+  }
+}
